@@ -7,7 +7,7 @@ To run the project locally, follow these steps:
 2. Navigate to the project directory:
 `cd sheece-kodo-test`
 
-3. Install dependencies using npm or yarn:
+3. Install dependencies using npm:
 `npm install`
 
 # Usage
