@@ -1,6 +1,6 @@
 import axios from "axios";
 
-export const discoverMoviesService = ({ params, data, url, apiKey }) => {
+export const discoverMoviesService = ({ params, data, url }) => {
   try {
     return axios({
       url,
