@@ -1,6 +1,6 @@
 import React from "react";
 import { render, fireEvent, waitFor } from "@testing-library/react-native";
-import Search from "../../../screens/search.screen";
+import Search from "../../../screens/search/search.screen";
 
 jest.mock("../../../api/movie-service", () => ({
   searchMoviesService: jest.fn(() =>

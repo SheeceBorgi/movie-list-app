@@ -1,6 +1,6 @@
 import React from "react";
 import { render, waitFor, fireEvent } from "@testing-library/react-native";
-import Home from "../../../screens/home.screen";
+import Home from "../../../screens/home/home.screen";
 import { discoverMoviesService } from "../../../api/movie-service";
 
 jest.mock("../../../api/movie-service");
